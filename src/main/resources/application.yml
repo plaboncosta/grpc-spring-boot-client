@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: grpc_spring_boot_client
+
+server:
+  port: 8081
+
+grpc:
+  client:
+    remoteServer:
+      address: "localhost"
+      port: 9090
